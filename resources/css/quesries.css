@@ -1,0 +1,143 @@
+
+
+@media only screen and (max-width:1200px){
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%; 
+       }
+
+}
+
+@media only screen and (max-width:1023px){
+    body {font-size: 18px;}
+
+    section {padding: 60px 0;}
+
+    .long-text {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .step-box {margin-top: 10px;}
+    .step-box:last-child{margin-top: 10px;}
+    
+    .work-steps {margin-bottom: 40px;}
+    .work-steps:last-of-type{margin-bottom: 60px;}
+
+    .app-screen {width: 50%;}
+
+    .iconsmall {width: 17px;
+                margin-right: 5px;
+                }
+
+    .city-features {font-size: 90%;}
+
+    .plans-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .plans-box div ul{font-size: 10px;}
+    
+    .plans-price{font-size: 200%;}
+
+    .contact-form{width: 80%;}
+    
+}
+
+
+
+@media (max-width:767px){
+    .contact-form{width: 100%;}
+
+    body {font-size: 16px}
+    section {padding: 15% 0;}
+
+    .row, .hero-text-box {padding: 0% 4%;}
+
+    .main-nav{display: none;}
+    .mobile-nav-icon{display: inline-block;}
+
+    .main-nav{
+        float: left;
+        margin-top:35px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li{display:block;}
+
+    
+    .sticky-nav .main-nav li a:link,.main-nav li a:visited {
+        padding: 10px 0;
+    }
+
+
+    .col {width: 100%;
+        margin: 0 0 4% 0;
+        }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 5px 0;
+        font-size: 100%;}
+
+    .long-text {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    h1 {font-size: 180%;}
+
+    h2 {font-size: 150%;}
+
+
+    .work-steps div {
+        height: 40px;
+        width: 40px;
+        padding: 5px; 
+        font-size: 120%;
+        margin-right: 15px;
+    }
+
+    .work-steps {margin-bottom: 20px;
+                line-height: 30px;}
+    .work-steps:last-of-type{margin-bottom: 20px;}
+
+    .step-box:first-child{
+        text-align: center;
+    }
+
+
+    app-screen {width: 40%;}
+    
+
+
+    .footer-nav li, .social-links li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-flex{width: 50%;}
+}
+
+@media only screen and (max-width:480px){
+    section {padding: 25% 0;}
+
+    .contact-form{width: 100%;}
+
+
+    .footer-nav li, .social-links li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+/* 
+    /* .footer-nav li, .social-links li {
+        display: flex;
+        flex-direction: column;
+    } */ */
+
+    .footer-flex{width: 30%;}
+
+}
