@@ -82,14 +82,13 @@ $(document).ready(function() {
     $('.js--mobile-icon').click(function() {
       var nav= $('.js--main-nav');
       nav.slideToggle(200);
-      var name=$('.main-nav ion-icon').attr('name')
+      var name=$('.js--mobile-icon ion-icon').attr('name')
         if (name=='menu-outline'){
-        $('.main-nav ion-icon').attr('name','close-outline')
+        $('.js--mobile-icon ion-icon').attr('name','close-outline')
       }else{
-        $('.main-nav ion-icon').attr('name','menu-outline')
+        $('.js--mobile-icon ion-icon').attr('name','menu-outline')
       }
 
     })
-
 
 }); 
